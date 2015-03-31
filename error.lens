@@ -1,0 +1,12 @@
+<koken:include file="layouts/header.html" />
+<center>
+	<font color="#2FDBDE"><h1><b>Error:</b> {{ routed_variables.code }}</h1></font>
+<p>
+<span>
+<h4>
+Pracuje se na tom! Pokud avšak tento error vidíte po několikáte a příjde Vám, že se na tom nepracuje, určitě mi napište!
+</h4>
+</span>
+</div>
+</center>
+<koken:include file="layouts/footer.html" />

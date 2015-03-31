@@ -1,0 +1,39 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="description" content="{{ site.description }}" />
+	<meta name="author" content="{{ site.title }}" />
+	<meta name="keywords" content="{{ site.keywords }}" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<koken:title />
+	
+	<koken:asset file="css/style.css" />
+    <koken:asset file="css/icons.css" />
+    <koken:asset file="css/animate.css" />
+
+    <link href='http://fonts.googleapis.com/css?family=Dosis:300,500,700' rel='stylesheet' type='text/css'>
+
+ </head>
+ <body>
+ <script type="text/javascript">
+    $(document).ready(
+    function(){
+        $(".share").click(function () {
+            $("#sharebutt").slideToggle();
+        });
+    });
+ </script>
+ <div id="wrapper" class="">
+ <header>
+            <div><h1 class="animated flipInY"><koken:asset file="logo.png" /></h1></div>
+            <nav class="animated fadeInRight">
+            <koken:load>
+            <koken:navigation />
+            <koken:else>
+            <koken:note>Chybí data v odkazech!</koken:note>
+            </koken:load>
+            </nav>
+ </header>

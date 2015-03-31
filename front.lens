@@ -1,0 +1,15 @@
+<koken:include file="layouts/header.html" />
+<div class="slider animated fadeInDown">
+<koken:pulse height="180px" width="100%" fallbacktext="Nejsou vybrány žádné featured!" filter="featured" crop="fill" transition_type="slide" speed="3" />
+</div>
+<div class="info  animated fadeInDown">
+<koken:load source="essay" filter:id="3" limit="1">{{ essay.content }}</br></koken:load>
+</div>
+
+<div class="left  animated fadeInDown"><div class="titleleft">Novinky</div><p><koken:load source="essay" filter:id="2" limit="1"><koken:featured_image><koken:img size="8:2" /></koken:featured_image>{{ essay.excerpt }}</br><koken:link class="continueleft">Pokračovat</koken:link></koken:load></p></div>
+
+<div class="right  animated fadeInDown"><div class="title">Aktuality</div><p><koken:load source="essay" filter:id="1" limit="1"><koken:featured_image><koken:img size="8:2" /></koken:featured_image>{{ essay.excerpt }}</br><koken:link class="continue">Pokračovat</koken:link></koken:load></p</div>
+
+</div>
+</body>
+</html>

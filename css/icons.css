@@ -1,0 +1,196 @@
+@font-face {
+	font-family: 'icons';
+	src:url('../fonts/icons.eot');
+	src:url('../fonts/icons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icons.woff') format('woff'),
+		url('../fonts/icons.ttf') format('truetype'),
+		url('../fonts/icons.svg#icons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'icons';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icn-"] {
+*/
+.icn-home, .icn-image, .icn-file, .icn-tag, .icn-location, .icn-address-book, .icn-user, .icn-bubble, .icn-cloud, .icn-heart, .icn-heart-2, .icn-facebook, .icn-twitter, .icn-google-plus, .icn-download, .icn-mobile, .icn-phone, .icn-phone-2, .icn-skype, .icn-envelope, .icn-mail, .icn-globe, .icn-earth, .icn-direction, .icn-map, .icn-home-2, .icn-office, .icn-profile, .icn-profile-2, .icn-profile-3, .icn-newspaper, .icn-loop, .icn-hammer, .icn-article, .icn-designmodo-settings, .icn-chris-spittles-save, .icn-warning-sign, .icn-th-large, .icn-th, .icn-th-list, .icn-star, .icn-star-empty, .icn-apple, .icn-windows, .icn-cloud-download, .icn-cloud-upload, .icn-sign-blank, .icn-ok, .icn-remove, .icn-asterisk, .icn-check-empty, .icn-bookmark-empty {
+	font-family: 'icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icn-home:before {
+	content: "\e000";
+}
+.icn-image:before {
+	content: "\e001";
+}
+.icn-file:before {
+	content: "\e002";
+}
+.icn-tag:before {
+	content: "\e003";
+}
+.icn-location:before {
+	content: "\e004";
+}
+.icn-address-book:before {
+	content: "\e005";
+}
+.icn-user:before {
+	content: "\e006";
+}
+.icn-bubble:before {
+	content: "\e007";
+}
+.icn-cloud:before {
+	content: "\e008";
+}
+.icn-heart:before {
+	content: "\e009";
+}
+.icn-heart-2:before {
+	content: "\e00a";
+}
+.icn-facebook:before {
+	content: "\e00b";
+}
+.icn-twitter:before {
+	content: "\e00c";
+}
+.icn-google-plus:before {
+	content: "\e00d";
+}
+.icn-download:before {
+	content: "\e00f";
+}
+.icn-mobile:before {
+	content: "\e010";
+}
+.icn-phone:before {
+	content: "\e011";
+}
+.icn-phone-2:before {
+	content: "\e012";
+}
+.icn-skype:before {
+	content: "\e013";
+}
+.icn-envelope:before {
+	content: "\e00e";
+}
+.icn-mail:before {
+	content: "\e014";
+}
+.icn-globe:before {
+	content: "\e015";
+}
+.icn-earth:before {
+	content: "\e016";
+}
+.icn-direction:before {
+	content: "\e017";
+}
+.icn-map:before {
+	content: "\e018";
+}
+.icn-home-2:before {
+	content: "\e019";
+}
+.icn-office:before {
+	content: "\e01a";
+}
+.icn-profile:before {
+	content: "\e01b";
+}
+.icn-profile-2:before {
+	content: "\e01c";
+}
+.icn-profile-3:before {
+	content: "\e01d";
+}
+.icn-newspaper:before {
+	content: "\e01e";
+}
+.icn-loop:before {
+	content: "\e01f";
+}
+.icn-hammer:before {
+	content: "\e020";
+}
+.icn-article:before {
+	content: "\e021";
+}
+.icn-designmodo-settings:before {
+	content: "\e022";
+}
+.icn-chris-spittles-save:before {
+	content: "\e023";
+}
+.icn-warning-sign:before {
+	content: "\f071";
+}
+.icn-th-large:before {
+	content: "\f009";
+}
+.icn-th:before {
+	content: "\f00a";
+}
+.icn-th-list:before {
+	content: "\f00b";
+}
+.icn-star:before {
+	content: "\f005";
+}
+.icn-star-empty:before {
+	content: "\f006";
+}
+.icn-apple:before {
+	content: "\f179";
+}
+.icn-windows:before {
+	content: "\f17a";
+}
+.icn-cloud-download:before {
+	content: "\f0ed";
+}
+.icn-cloud-upload:before {
+	content: "\f0ee";
+}
+.icn-sign-blank:before {
+	content: "\f0c8";
+}
+.icn-ok:before {
+	content: "\f00c";
+}
+.icn-remove:before {
+	content: "\f00d";
+}
+.icn-asterisk:before {
+	content: "\f069";
+}
+.icn-check-empty:before {
+	content: "\f096";
+}
+.icn-bookmark-empty:before {
+	content: "\f097";
+}

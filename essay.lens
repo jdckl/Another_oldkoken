@@ -1,0 +1,9 @@
+<koken:include file="layouts/header.html" />
+<koken:load>
+<div class="nazev animated fadeIn"><span>{{ essay.title }}</span>&nbsp;<span><koken:link to="front"><span class="icn-remove"></span></koken:link></span></div>
+<article class="animated fadeInUp">
+        {{ essay.content }}
+</article>
+    <koken:else>
+      <koken:note>No essay found</koken:note>
+    </koken:load>

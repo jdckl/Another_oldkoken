@@ -1,0 +1,24 @@
+<koken:include file="layouts/header.html" />
+<span class="close"><koken:link to="albums"><span class="icn-remove"></span></koken:link></span>
+<div id="slideshow" class="animated fadeIn">
+<koken:pulse height="400px" width="100%" fallbacktext="Chybí data v albu." filter="album" crop="fill" transition_type="fade" speed="3" class="slideshow" link_to="lightbox" />
+</div>
+<div id="albumnfo" class="animated fadeIn">
+<span><h2>{{ album.title }}</h2></span><div class="share"><a href="#">Sdílet</a><div id="sharebutt">
+<a href="#" 
+  onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href), 
+      'facebook-share-dialog', 
+      'width=626,height=436'); 
+    return false;">
+  <span class="icn-facebook"></span>
+</a>
+</div>
+</div>
+
+
+<p>{{ album.summary }}</p>
+
+</div>
+</div>

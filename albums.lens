@@ -1,0 +1,21 @@
+<koken:include file="layouts/header.html" />
+<koken:load limit="6">
+<ul class="galerie animated fadeInDown">
+
+	<koken:loop>
+		<koken:include file="layouts/album_index_loop.html" />
+	</koken:loop>
+
+</ul>
+<koken:include file="layouts/pagination.html" />
+<koken:else>
+
+	Chybí alba! :-/
+
+</koken:load>
+</br>
+</br>
+</br>
+</br>
+</br>
+<koken:include file="layouts/footer.html" />

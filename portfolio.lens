@@ -1,0 +1,11 @@
+<koken:include file="layouts/header.html" />
+
+<div id="galerie">
+<koken:load>
+		<koken:include file="albums.html" />
+
+	<koken:else>
+
+		This area displays featured content. Add some in the Library.
+</koken:load>
+</div>
